@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(5, 5, 37);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(5, 5, 37);
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 53px;
+    background-color: rgba(8, 8, 59, 0.766);
+
+
+
+}
+
+nav .rightnav ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav .rightnav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav .rightnav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .rightnav ul li a:hover {
+    color: rgb(144, 144, 246);
+    font-size: 1.04rem;
+}
+
+nav .leftnav {
+    font-size: 1.5rem;
+
+
+}
+
+main hr {
+    margin: 0 2.5rem;
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+
+.first .leftsection {
+
+    width: 30%;
+    font-size: 2rem;
+
+}
+
+.first .leftsection .color {
+
+    color: rgb(170, 107, 228);
+
+}
+
+.first .leftsection .button .first-btn {
+    padding: 10px;
+    border-radius: 1rem;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(11, 11, 62);
+}
+
+.first .leftsection .button .first-btn a:hover {
+    font-size: 1rem;
+}
+
+.first .leftsection .button .first-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.first .leftsection .button .first-btn a:hover {
+    font-size: 1rem;
+}
+
+.first .leftsection .button .second-btn {
+    padding: 10px;
+    border-radius: 1rem;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(11, 11, 62);
+
+}
+
+.first .leftsection .button .second-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.first .leftsection .button .second-btn a:hover {
+    font-size: 1rem;
+}
+
+
+.first .rightsection {
+    width: 30%;
+    border-radius: 3rem;
+
+
+}
+
+.first .rightsection img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* border: 4px solid black; */
+    box-shadow: 4px solid black;
+
+
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.second {
+    height: 40vh;
+    align-items: center;
+}
+
+.bio-heading {
+
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.9rem;
+ 
+
+}
+
+.second  hr{
+    margin: 0 3rem;
+}
+
+.bio-matter {
+    margin: 2rem 2rem;
+    text-align: center;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    
+    
+  
+}
+
+.bio-matter .bio-color {
+    color: rgb(170, 107, 228);
+}
+
+.projects-sec{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.projects-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects{
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.1);
+    text-align: center;
+}
+
+.projects img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.projects h3{
+    margin: 10px 0;
+}
+
+.projects p{
+    margin: 5px 0;
+}
+
+.projects a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(11, 11, 62); 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.projects button{
+    border-radius: 5px;
+}
+
+.projects button:hover{
+    font-size: 1rem;
+}
+
+#contact{
+    margin-top: 50px;
+    text-align: center;
+}
+#contact-form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+ .form-group{
+    margin-bottom: 20px;
+ }
+ #form-group {
+ width: 67%;
+ padding: 10px;
+ font-size: 1rem;
+ 
+ }
+
+ #form-group #checkbox{
+    cursor: pointer;
+ }
+
+ .form-group label{
+    display: block;
+   
+ }
+
+ .form-group input, .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+  .form-group textarea{
+    resize: vertical;
+  }
+
+  button[type="submit"]{
+    padding: 10px 20px;
+    background-color: rgba(8, 8, 59, 0.766);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+
+  button[type="submit"]:hover{
+    font-size: 1rem;
+  }
+
+
